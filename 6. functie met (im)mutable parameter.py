@@ -1,6 +1,7 @@
+lijst=['a', 'b', 'c']
+print(lijst)
 def wijzig():
-    list=['a', 'b', 'c']
-    print(list)
-    list=['d', 'e', 'f']
-    print(list)
+    letterlijst=['d', 'e', 'f']
+    lijst = letterlijst
+    print(lijst)
 wijzig()
